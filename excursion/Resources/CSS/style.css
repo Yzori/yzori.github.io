@@ -1,3 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	background-color: black;
+	text-align: center;
+}
+
+h1, h2 {
+	color: white;
+	font-family: Verdana, Arial, "sans-serif";
+}
+
+#title {
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.download {
+	color: aquamarine;
+	font-size: 16px;
+}
+
+.travel {
+	font-size: 42px;
+	font-weight: 300;
+}
+
+p {
+	font-family: Verdana, Arial, "sans-serif";
+	color: gray;
+	font-size: 21px;
+}
+
+#signature {
+	text-align: right;
+}
