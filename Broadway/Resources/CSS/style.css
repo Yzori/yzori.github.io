@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.broadway {
+	background-image: url(../Images/the-flatiron-building.png);
+}
+
+#title {
+	font-family: Helvetica, "sans-serif";
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+}
+
+body {
+	text-align: center;
+}
