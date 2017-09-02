@@ -1,17 +1,61 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+	text-align: center;
+	font-family: Helvetica, Arial, Calibri, "sans-serif";
+	color: white;
+	font-weight: bold;
+}
+
 .broadway {
 	background-image: url(../Images/the-flatiron-building.png);
+	
 }
 
 #title {
-	font-family: Helvetica, "sans-serif";
 	font-size: 70px;
-	font-weight: bold;
 	color: white;
 }
 
-body {
-	text-align: center;
+.navbar {
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 18px; 
+}
+
+#process {
+	font-size: 32px;
+	color: grey;
+}
+
+.paragraph {
+	font-size: 14px;
+	color: black;
+	font-weight: normal;
+}
+
+@media (max-width : 865px ){
+}
+
+.subtitle h3 {
+	font-size: 23px;
+	color: black;
+}
+
+.newyork h4{
+	background-image: url(../Images/the-flatiron-building.png);
+	font-size: 23px;
+}
+
+div.footer {
+	background-image: url(../Images/the-flatiron-building.png);
+	text-align: left;
+	background-color: dimgray;
+	font-size: 11px;
+}
+
+.footer p {
+	background-color: dimgray;
+	text-align: left;
 }
